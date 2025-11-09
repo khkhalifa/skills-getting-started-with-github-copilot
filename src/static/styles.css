@@ -74,6 +74,27 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-list {
+  margin: 10px 0 10px 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.participants-list li {
+  padding: 5px 0;
+  padding-left: 20px;
+  position: relative;
+  color: #555;
+  font-size: 14px;
+}
+
+.participants-list li::before {
+  content: "👤";
+  position: absolute;
+  left: 0;
+  font-size: 12px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
